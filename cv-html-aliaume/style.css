@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Minion Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minion Pro Regular'), url('MinionPro-Regular.woff') format('woff');
+    }
+p{
+    font-family:"Minion Pro Regular", serif;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+body{
+    background:rgb(20, 20, 20);
+}
+main, header{
+    width:90%;
+    height:80%;
+    margin:0 auto;
+    text-align: center;
+    background-color: white;
+    
+}
+h1{
+    margin:auto;
+}
+.me-img{
+    width:150px;
+}
+section{
+    padding:10px;
+    display:flex;
+    margin:auto;
+    justify-content: space-evenly;
+}
+div{
+    text-align: center;
+    width:49%;
+}
+.full, .flx{
+    width:100%;
+}
+.full img{
+    width:80px;
+}
+.fr-flag{
+    margin-left:-20px;
+}
+.flx{
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.flx p{
+    margin:30px 0 0 10px;;
+}
+.space{
+    margin-top:-15px;
+}
+.right{
+    border-left: 1px solid black;
+}
+.left{
+    border-right: 1px solid black;
+}
+ul{
+    text-align: justify;
+    margin-left:30%;
+    list-style: none;
+}
+i{
+    padding:5px;
+    width:60px;
+    text-align: center;
+}
